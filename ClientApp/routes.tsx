@@ -13,6 +13,7 @@ export default () => <BrowserRouter>
     <Layout>
         <Switch>
             <Route exact path='/' component={Home} />
+            <Route path='/hello' component={Home} />
             <Route path='/counter' component={Counter} />
             <Route path='/fetchdata' component={FetchData} />
         </Switch>
